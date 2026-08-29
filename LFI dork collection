@@ -1,0 +1,67 @@
+inurl:"?page=news.php"
+
+inurl:"index.php?main=*php"
+
+inurl:"index.php?inc=*php"
+
+inurl:"index.php?pg=*php"
+
+inurl:"index.php?include_file=*php"
+
+inurl:"index.php?main=*html"
+
+inurl:"index.php?inc=*html"
+
+inurl:"index.php?pg=*html
+
+inurl:index.php?id=
+
+inurl:index.php?cat=
+
+inurl:index.php?action=
+
+inurl:index.php?content=
+
+inurl:index.php?page=
+
+
+=======================================================================
+allinurl:pgg=contact.php
+
+allinurl:page=contact.php
+
+allinurl:home=contact.php
+
+allinurl:?index.php?pagina=contato.php site:br
+
+allinurl:?index.php?pagina=clientes.php site:br
+
+allinurl:?index.php?pagina produtos.php site:br
+
+allinurl:?index.php?pagina=contato.php
+
+index.php?pagina=home.php
+
+index.php?pagina?companypage.php
+
+index.php?pagina?page works.php
+
+index.php?page=location.php
+
+index.php?pagina?contact.php page
+
+thumb.php
+
+index.php?pagina?companypage.php
+
+index.php?pagina?products page.php
+
+index.php?pagina?page representatives.php
+
+index.php?page=contact.php
+
+index.php?pagina=home.php
+
+index.php?page=consumer_guide.php
+
+index.php?pagina?responsibility page.php
